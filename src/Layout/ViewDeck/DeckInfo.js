@@ -28,12 +28,13 @@ function DeckInfo({deck, cards, deckId}){
       
       return <div>
         <div>
-           <h3>{deck.name}</h3>
-           <p>{deck.description}</p>
-           <NavLink to={`/decks/${deckId}/edit`}className="btn btn-secondary">Edit</NavLink>
-           <NavLink to={`/decks/${deckId}/study`} className="btn btn-primary">Study</NavLink>
-           <NavLink to={`/decks/${deckId}/cards/new`} className="btn btn-primary">Add Cards</NavLink>
-           <button onClick={useDeleteDeckHandler} className="btn btn-danger">Delete</button>
+          <h3>{deck.name}</h3>
+          <p>{deck.description}</p>
+          <NavLink to={`/decks/${deckId}/edit`} className="btn btn-secondary">Edit</NavLink>
+          <NavLink to={`/decks/${deckId}/study`} className="btn btn-primary ml-1">Study</NavLink>
+          <NavLink to={`/decks/${deckId}/cards/new`} className="btn btn-primary ml-1">Add Cards</NavLink>
+          <button onClick={useDeleteDeckHandler} className="btn btn-danger ml-1">Delete</button>
+          
         </div>
         <div>
             <h2>Cards</h2>

@@ -39,7 +39,7 @@ function CardInfo({card, deckId}){
     return <div className="border">
         <p>{card.front}</p>
         <p>{card.back}</p>
-        <NavLink to={`/decks/${deckId}/cards/${card.id}/edit`}className="btn btn-secondary"> Edit</NavLink>
+        <NavLink to={`/decks/${deckId}/cards/${card.id}/edit`}className="btn btn-secondary mr-1"> Edit</NavLink>
         <button onClick={useDeleteCardHandler} className="btn btn-danger">Delete</button>
     </div>
 }

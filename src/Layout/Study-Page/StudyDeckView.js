@@ -21,7 +21,7 @@ function StudyDeckView({deck, card, cardSide, cards, cardIndex, getDeck, setCard
             <div> 
                 <h2>Not enough cards.</h2>
                 <p> You need at least 3 cards to study. There are {cards.length} cards in this deck</p>
-                <NavLink to={`/decks/${deckId}/cards/new`} className="btn btn-primary"> +Add Cards</NavLink>
+                <NavLink to={`/decks/${deck.id}/cards/new`} className="btn btn-primary"> +Add Cards</NavLink>
             </div>
             :
             //if the deck is 3 or more show the cards to study

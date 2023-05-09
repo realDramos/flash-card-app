@@ -38,15 +38,19 @@ function HomeDecks({deck}){
     return (
         <div className="border mt-2">
             <div className="m-3">
-            <div>
+            <div className="d-flex justify-content-between">
                 <h3>{deck.name}</h3> 
                 <p>{deck.cards.length} cards</p>
             </div>
                 <p>{deck.description}</p>
-            
-                <NavLink to={`/decks/${deck.id}`} className="btn btn-secondary">View</NavLink>
-                <NavLink to={`/decks/${deck.id}/study`} className="btn btn-primary ml-3">Study</NavLink>
+              <div className="d-flex justify-content-between">
+                <div>
+                  <NavLink to={`/decks/${deck.id}`} className="btn btn-secondary">View</NavLink>
+                  <NavLink to={`/decks/${deck.id}/study`} className="btn btn-primary ml-2 ">Study</NavLink>
+                </div>
                 <button onClick={useDeleteDeckHandler} className="btn btn-danger">Delete</button>
+              </div>
+                
             </div>
         </div>
     )
