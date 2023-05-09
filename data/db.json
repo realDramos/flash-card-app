@@ -4,11 +4,6 @@
       "id": 1,
       "name": "Rendering in React",
       "description": "React's component structure allows for quickly building a complex web application that relies on DOM manipulation. "
-    },
-    {
-      "name": "React Router",
-      "description": "React Router is a collection of navigational components that compose declaratively with your application.",
-      "id": 2
     }
   ],
   "cards": [
@@ -31,23 +26,89 @@
       "deckId": 1
     },
     {
-      "front": "What path will match the follow Route?\n<Route>\n  <NotFound />\n</Route>",
-      "back": "All paths. A route with no path matches all URL's",
-      "deckId": 2,
-      "id": 4
+      "front": "My Mother",
+      "back": "Adriana SOlis",
+      "id": 9
     },
     {
-      "front": "What does <Switch> do?",
-      "back": "Renders the first matching child <Route> ",
-      "deckId": 2,
-      "id": 5
+      "front": "Hello This is ",
+      "back": "Daniel Ramos solis",
+      "id": 12
     },
     {
-      "cards": [],
-      "front": "b",
-      "back": "b",
-      "deckId": 1,
-      "id": 7
+      "front": "Hello this is an edited card",
+      "back": "This is the edited back part",
+      "id": 13
+    },
+    {
+      "front": "My middle name",
+      "back": "Dont have one",
+      "id": 14
+    },
+    {
+      "front": "My name is Daniel",
+      "back": "My last name is ramos",
+      "id": 15
+    },
+    {
+      "front": "My name is daniel",
+      "back": "Ramos",
+      "id": 16
+    },
+    {
+      "front": "My mothers name is ",
+      "back": "Gekk hasdas rtre er e",
+      "id": 17
+    },
+    {
+      "front": "My boop",
+      "back": "ajdskfrt",
+      "id": 18
+    },
+    {
+      "front": "Daniel Ramos",
+      "back": "My is name is",
+      "id": 19
+    },
+    {
+      "front": "My Fathers Name",
+      "back": "Hello THis is danie",
+      "id": 20
+    },
+    {
+      "front": "My Fathers Name",
+      "back": "AWdasddg sadfg s jsdf gflk df sdf ",
+      "id": 21
+    },
+    {
+      "front": "546546456",
+      "back": "122423. fdg sfd ",
+      "id": 22
+    },
+    {
+      "front": "435345345",
+      "back": "3656474574657 567 568 ",
+      "id": 23
+    },
+    {
+      "front": "r4treterts",
+      "back": "ssdfsd",
+      "id": 24
+    },
+    {
+      "front": "The front",
+      "back": "The back",
+      "id": 25
+    },
+    {
+      "front": "Back",
+      "back": "Front",
+      "id": 26
+    },
+    {
+      "front": "THis is",
+      "back": "Not it",
+      "id": 27
     }
   ]
 }
