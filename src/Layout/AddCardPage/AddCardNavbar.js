@@ -11,6 +11,9 @@ function AddCardNavbar({deck}){
                 <li className="breadcrumb-item">Add Card</li>
             </ol>
         </nav>
+        <div>
+        <h1>Add Card</h1>
+        </div>
     </div>
 }
 

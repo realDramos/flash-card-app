@@ -45,19 +45,17 @@ import { updateCard } from "../../utils/api/index"
 
     if(formData) 
         return<div>
-            <h1>Edit Card</h1>
             <form onSubmit={handleSubmit}>
                 <div>
                 <label htmlFor="front">Front</label>
                 <textarea type="textarea" id="front" name="front" 
-                    placeholder={card.front} style={{width:'100%'}}
+                   placeholder="Front side of card"  style={{width:'100%'}}
                     onChange={handleChange} value={formData.front}
                 />
             </div>
             <div className="mt-3">
                 <label htmlFor="back">Back</label>
-                <textarea type="textarea" name="back" id="back" 
-                    placeholder={card.back}  
+                <textarea type="textarea" name="back" id="back" placeholder="Back side of card" 
                     style={{width:'100%',height:'50px'}}
                     onChange={handleChange} value={formData.back}
                 />
@@ -68,5 +66,29 @@ import { updateCard } from "../../utils/api/index"
             </div>
             </form>
         </div>
+        
+        // if(formData) 
+        // return<div>
+        //     <form onSubmit={handleSubmit}>
+        //         <div>
+        //         <label htmlFor="front">Front</label>
+        //         <textarea type="textarea" id="front" name="front" 
+        //            placeholder="Front side of card"  style={{width:'100%'}}
+        //             onChange={handleChange} value={formData.front}
+        //         />
+        //     </div>
+        //     <div className="mt-3">
+        //         <label htmlFor="back">Back</label>
+        //         <textarea type="textarea" name="back" id="back" placeholder="Back side of card" 
+        //             style={{width:'100%',height:'50px'}}
+        //             onChange={handleChange} value={formData.back}
+        //         />
+        //     </div>
+        //     <div className="mt-3">
+        //         <NavLink to={`/decks/${deckId}`} className="btn btn-secondary mr-2">Cancel</NavLink>
+        //         <button type="submit" className="btn btn-primary">Submit</button>
+        //     </div>
+        //     </form>
+        // </div>
 }
 export default EditCardView;

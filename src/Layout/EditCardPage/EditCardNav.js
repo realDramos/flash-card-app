@@ -10,6 +10,9 @@ function EditCardNavBar({deck, cardId}){
                 <li className="breadcrumb-item">Edit Card {cardId}</li>
             </ol>
         </nav>
+        <div>
+            <h1>Edit Card</h1>
+        </div>
     </div>
 }
 

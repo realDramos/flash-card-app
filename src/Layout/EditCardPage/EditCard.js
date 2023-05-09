@@ -3,6 +3,7 @@ import EditCardNavBar from "./EditCardNav";
 import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 import { readCard, readDeck } from "../../utils/api";
 import EditCardView from "./EditCardView";
+import EditAddCard from "../EditAddCard";
 
 
 function EditCard(){
@@ -46,7 +47,7 @@ function EditCard(){
     return <div>
         <EditCardNavBar deck={deck} cardId={cardId}/>
         {/* conditional rendering if card.id exists then render EditCard View */}
-        {card.id && <EditCardView deckId={deckId} card={card}/>}
+        {card.id && <EditAddCard deckId={deckId} card={card} addCard={false}/>}
     </div>
 }
 

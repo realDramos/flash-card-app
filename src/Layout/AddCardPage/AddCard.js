@@ -3,6 +3,7 @@ import AddCardNavbar from "./AddCardNavbar"
 import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 import { readDeck } from "../../utils/api";
 import AddCardView from "./AddCardView";
+import EditAddCard from "../EditAddCard";
 
 //this is the AddCard parent component I call read deck to access the correct card from the correct deck
 function AddCard(){
@@ -28,8 +29,7 @@ function AddCard(){
 
     return <div>
         <AddCardNavbar deck={deck}/>
-        <AddCardView deck={deck} />
+        <EditAddCard deck={deck} addCard={true}/>
     </div>
 }
-
 export default AddCard;

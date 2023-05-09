@@ -4,14 +4,19 @@
       "id": 1,
       "name": "Rendering in React",
       "description": "React's component structure allows for quickly building a complex web application that relies on DOM manipulation. "
+    },
+    {
+      "name": "Daniel Ramos is the best",
+      "description": "BEwadnasfjfh",
+      "id": 2
     }
   ],
   "cards": [
     {
-      "id": 1,
       "front": "Differentiate between Real DOM and Virtual DOM.",
       "back": "Virtual DOM updates are faster but do not directly update the HTML",
-      "deckId": 1
+      "deckId": 1,
+      "id": 1
     },
     {
       "id": 2,
@@ -109,6 +114,12 @@
       "front": "THis is",
       "back": "Not it",
       "id": 27
+    },
+    {
+      "front": "Dniaeasdfjlsadlkf",
+      "back": "asdfsadgfagds ",
+      "deckId": 2,
+      "id": 28
     }
   ]
 }
